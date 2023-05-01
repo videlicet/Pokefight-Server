@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import db_URL from '../db_URL.js';
+//import db_URL from '../db_URL.js';
 import Fights from '../models/fights.js';
 
 mongoose.connect(db_URL);
