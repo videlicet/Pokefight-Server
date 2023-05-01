@@ -8,7 +8,7 @@ import pokemonRouter from './routes/pokemonRouter.js';
 import leaderboardRouter from './routes/leaderboardRouter.js'
 import errorHandler from './middlewares/errorHandler.js';
 
-const port = 4620;
+const port = process?.env?.PORT || 4620;
 const app = express();
 
 mongoose.connect(process?.env?.DB_URL); // when hosting locally: db_URL
