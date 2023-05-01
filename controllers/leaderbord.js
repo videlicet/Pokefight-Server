@@ -1,8 +1,8 @@
 import mongoose from 'mongoose';
-//import db_URL from '../db_URL.js';
+//import db_URL from '../db_URL.js'; // when hosting locally
 import Fights from '../models/fights.js';
 
-mongoose.connect(db_URL);
+mongoose.connect(process?.env?.DB_URL); // when hosting locally db_URL
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
