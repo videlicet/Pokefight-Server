@@ -2,6 +2,10 @@
 
 A server for a small SPA for Pokébouts.
 
+## Performance
+
+The server is hosted on render. It can take up to one minute until it respondes if it has been idling.
+
 ## Acknowledgements
 
 Built with:
