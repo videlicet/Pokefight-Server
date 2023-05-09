@@ -1,10 +1,12 @@
-# Pokéfight-Server
+# Pokéfight-Server (Study Project)
 
 A server for a small SPA for Pokébouts.
 
 ## Performance
 
 The server is hosted on render. It can take up to one minute until it respondes if it has been idling.
+
+The <a href="https://github.com/videlicet/Pokefight" target="_blank">frontend</a> is deployed on netlify. 
 
 ## Acknowledgements
 
